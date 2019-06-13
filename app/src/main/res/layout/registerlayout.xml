@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Register"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:fontFamily="@font/lato"
+        android:textSize="32sp"
+        android:id="@+id/iv_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/beef"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:textSize="18sp"
+        android:textColorHint="@color/colorFonts"
+        android:hint="  First Name"
+        android:id="@+id/et_fname"
+        android:textColor="#ffffff"
+        android:background="@drawable/edittextbg"
+        android:layout_width="260dp"
+        android:padding="7dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:hint="  Last Name"
+        android:textSize="18sp"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/et_lname"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/et_fname"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edittextbg"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+
+        android:hint="  Email"
+        android:textSize="18sp"
+
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/et_reg_email"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/et_lname"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edittextbg"
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:hint="  Contact"
+
+        android:textSize="18sp"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/etcontact"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/et_reg_email"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edittextbg"
+
+        android:ems="10"
+        android:inputType="number"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_place_black_24dp"
+        android:hint="  Address"
+
+        android:textSize="18sp"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/ettaddress"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/etcontact"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edittextbg"
+
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+
+    <EditText
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:textSize="18sp"
+        android:hint="  Password"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/aa"
+        android:layout_width="260dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/ettaddress"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edittextbg"
+
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_register"
+        android:background="@drawable/bgbuttonsignuop"
+        android:textColor="#ffffff"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/aa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Register" />
+    <TextView
+        android:id="@+id/tvbtnsigin"
+        android:fontFamily="@font/lato"
+        android:textColor="#fff"
+        android:layout_marginTop="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_register"
+        android:text="Login"
+        />
+
+</RelativeLayout>
+
+
+

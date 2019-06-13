@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Register"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_user"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/boy"
+        />
+
+
+    <EditText
+        android:hint="  Email"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/etemaillog"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/iv_user"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/edittextbg"
+
+
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:drawableLeft="@drawable/ic_lock_black_24dp"
+        android:hint="  Password"
+        android:textColorHint="@color/colorFonts"
+        android:id="@+id/etpasswordlog"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/etemaillog"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/edittextbg"
+
+        android:ems="10"
+        android:inputType="textPassword"
+        android:padding="7dp"
+        android:textColor="#ffffff" />
+    <Button
+        android:id="@+id/btn_login"
+        android:background="@drawable/bgbuttonsignuop"
+        android:textColor="#ffffff"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/etpasswordlog"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Sign in" />
+    <TextView
+        android:id="@+id/tvbtnsignup"
+        android:fontFamily="@font/lato"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_login"
+        android:text="Create Account"
+        />
+
+</RelativeLayout>

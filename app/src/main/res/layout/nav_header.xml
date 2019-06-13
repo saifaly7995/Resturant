@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="156dp"
+    android:gravity="bottom"
+    android:background="@drawable/navbg"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvnavheadername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="12dp"
+        android:fontFamily="@font/lato_bold"
+        android:gravity="left"
+        android:text="Nabeel Ahmed"
+        android:textColor="#fff"
+        android:textSize="22sp" />
+
+</LinearLayout>
